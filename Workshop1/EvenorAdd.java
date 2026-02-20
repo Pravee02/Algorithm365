@@ -1,13 +1,16 @@
 public class EvenorAdd{
-    static void find(int num){
+    static boolean find(int num){
+    
         if(num%2==0){
-            System.out.println("even");
-            }
-            else{
-            System.out.println("odd");
-    }
+       
+        return true;
+        }
+        else{
+         
+        return false;
+        }
     }
  public static void main(String args[]){
-    find(10);
+    System.out.println(find(10));
 }
     }
