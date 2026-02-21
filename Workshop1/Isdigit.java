@@ -2,7 +2,7 @@ public class Isdigit {
 
     static boolean isNumber(String input)
     {
-        boolean result = true;
+        boolean result = true;  
 
         for (int i = 0; i < input.length(); i++) // FIXED
         {

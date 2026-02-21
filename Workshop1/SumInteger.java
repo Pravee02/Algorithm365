@@ -4,7 +4,7 @@ class SumInteger {
         int sum=0;
         for(int i=0;i<num.length;i++){
             sum=sum+num[i];
-            int result=sum; 
+         
         }
             System.out.println("sum is"+sum);   
         
