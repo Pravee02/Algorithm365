@@ -1,20 +1,21 @@
 public class Palindrome {
   static boolean  isPalindrome(String name){
-
+   boolean result=true;
         int left = 0;
         int right = name.length() - 1;
 
         while(left < right){
 
             if(name.charAt(left) != name.charAt(right)){
-                return false;
+                result= false;
+                  break; 
             }
 
             left++;   // increment first
             right--;     // decrement last
         }
 
-        return true;
+        return result;
     }
 
     public static void main(String[] args){
