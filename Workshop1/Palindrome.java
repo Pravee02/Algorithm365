@@ -11,7 +11,7 @@ public class Palindrome {
                   break; 
             }
 
-            left++;   // increment first
+            left++;   // increment first 
             right--;     // decrement last
         }
 
