@@ -19,5 +19,5 @@ findmaxmin(new int[] {1,2,0,10});
     
     }
 }
-
+//simple two for loop program to find max and min in the given array
 

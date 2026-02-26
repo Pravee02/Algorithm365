@@ -24,3 +24,4 @@ public class Palindrome {
         System.out.println(isPalindrome("hello")); // false
     }
 }
+// palindorme means the name is equal as same as reversed name 
