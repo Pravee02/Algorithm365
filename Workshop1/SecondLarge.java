@@ -10,7 +10,7 @@ public class SecondLarge{
          //int second=nums[0]; 
 
         if(nums[i]>max){
-            min=max;
+            
         max=nums[i];
         //second=first;
         
@@ -25,9 +25,26 @@ System.out.println("the second largest number is "+max);
     }
 
 
+static void Secondl(int[] num){
+    int firstlargest=num[0];
+     int SecondLargest=Integer.MIN_VALUE;;
+     for(int i=0;i<=num.length-1;i++){
+if(num[i]>firstlargest){
+    firstlargest=num[i];
+}
+if(num[i]<firstlargest&&num[i]>=SecondLargest){
+    SecondLargest=num[i];
+    
+}
+
+     }
+     System.out.println("the second largest number is "+SecondLargest);
+System.out.println("the second largest number is "+firstlargest);
+}
+
 
 public static void main(String args[]){
-    find(new int[]{10, 5, 8, 7,90,5,46,});
-     
+    find(new int[]{100, 5, 8, 7,90,5,46,95});
+     Secondl(new int[]{100, 5, 8, 7,90,5,46,1000,999});
 }
     }
